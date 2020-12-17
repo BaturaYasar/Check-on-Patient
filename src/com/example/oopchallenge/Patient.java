@@ -31,47 +31,23 @@ public class Patient {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public Eye getLeftEye() {
         return leftEye;
-    }
-
-    public void setLeftEye(Eye leftEye) {
-        this.leftEye = leftEye;
     }
 
     public Eye getRightEye() {
         return rightEye;
     }
 
-    public void setRightEye(Eye rightEye) {
-        this.rightEye = rightEye;
-    }
-
     public Heart getHeart() {
         return heart;
-    }
-
-    public void setHeart(Heart heart) {
-        this.heart = heart;
     }
 
     public Stomach getStomach() {
         return stomach;
     }
 
-    public void setStomach(Stomach stomach) {
-        this.stomach = stomach;
-    }
-
     public Skin getSkin() {
         return skin;
-    }
-
-    public void setSkin(Skin skin) {
-        this.skin = skin;
     }
 }
